@@ -8,6 +8,7 @@ import WhyChooseUs from "../components/home/Why";
 import Banner from "../components/home/Banner";
 import Testimonial from "../components/home/Testi";
 import FAQ from "../components/home/Faq";
+import PrincipalMessage from "../components/home/PrincipalMessage";
 
 // Reusable fade-in animation
 const fadeUp = {
@@ -28,6 +29,9 @@ const Home = () => {
       {/* Classes Preview */}
       <Classes />
 
+      {/* Principal Msg */}
+      <PrincipalMessage />
+      
       {/* Why Choose Us */}
       <WhyChooseUs />
 
